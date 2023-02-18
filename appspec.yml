@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /Pythontest
+  - source: /var/lib/jenkins/workspace/Pythontest
     destination: /usr/local/pythonapp
 hooks:
   BeforeInstall:
