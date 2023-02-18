@@ -1,1 +1,1 @@
-service ntpd stop
+service httpd stop
