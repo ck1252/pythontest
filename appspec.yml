@@ -5,13 +5,6 @@ files:
     destination: /usr/local/pythonapp
 hooks:
   BeforeInstall:
-    - location: scripts/stop.sh
-      timeout: 300
-      runas: root
     - location: scripts/removepython.sh
-      timeout: 300
-      runas: root
-  ApplicationStop:
-    - location: scripts/start.sh
       timeout: 300
       runas: root
