@@ -1,1 +1,1 @@
-service tomcat stop
+service ntpd stop
