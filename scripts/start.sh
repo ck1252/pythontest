@@ -1,1 +1,1 @@
-service tomcat stop
+service httpd stop
